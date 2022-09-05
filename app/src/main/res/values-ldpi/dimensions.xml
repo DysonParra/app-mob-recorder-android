@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textViewSize">30sp</dimen>
+    <dimen name="marginLeft">20sp</dimen>
+    <dimen name="marginRight">20sp</dimen>
+    <dimen name="marginTop">40sp</dimen>
+    <dimen name="marginBottom">40sp</dimen>
+</resources>
