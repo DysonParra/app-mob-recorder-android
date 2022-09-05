@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Recorder</string>
+
+    <string name="btnRecord">Grabar</string>
+    <string name="btnStop">Parar</string>
+    <string name="btnFft">FFT</string>
+
+    <string name="txtSource">Fuente</string>
+    <string name="txtHz">Hertz</string>
+</resources>

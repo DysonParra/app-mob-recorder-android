@@ -1,0 +1,59 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnRecord"
+    />
+
+    <Button
+        android:id="@+id/btnFft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnRecord"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnFft"
+    />
+
+    <TextView
+        android:id="@+id/txtSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnFft"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/txtSource"
+    />
+
+    <TextView
+        android:id="@+id/txtHz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/txtSource"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/txtHz"
+    />
+
+</RelativeLayout>
