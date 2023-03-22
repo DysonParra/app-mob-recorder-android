@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MainActivity} se encarga de realizar tareas específicas.
+ * @fileoverview    {MainActivity}
  *
  * @version         2.0
  *

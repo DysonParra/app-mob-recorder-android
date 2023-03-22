@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AudioProcessor} se encarga de realizar tareas específicas.
+ * @fileoverview    {AudioProcessor}
  *
  * @version         2.0
  *
