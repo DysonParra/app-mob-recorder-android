@@ -26,7 +26,7 @@ import java.io.PrintStream;
  * TODO: Definición de {@code AudioProcessor}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class AudioProcessor implements Runnable {
 
