@@ -29,7 +29,7 @@ import com.project.dev.recorder.R;
 import com.project.dev.recorder.processor.AudioProcessor;
 
 /**
- * TODO: Definición de {@code MainActivity}.
+ * TODO: Description of {@code MainActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * TODO: Definición de {@code onStart}.
+     * TODO: Description of {@code onStart}.
      *
      */
     @Override
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * TODO: Definición de {@code startAudioProcessing}.
+     * TODO: Description of {@code startAudioProcessing}.
      *
      */
     private void startAudioProcessing() {
