@@ -26,7 +26,7 @@ import java.io.PrintStream;
  * TODO: Description of {@code AudioProcessor}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class AudioProcessor implements Runnable {
 

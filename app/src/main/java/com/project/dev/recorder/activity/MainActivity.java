@@ -32,7 +32,7 @@ import com.project.dev.recorder.processor.AudioProcessor;
  * TODO: Description of {@code MainActivity}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class MainActivity extends AppCompatActivity {
 
