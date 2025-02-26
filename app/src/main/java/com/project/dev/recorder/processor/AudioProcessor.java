@@ -66,6 +66,7 @@ public class AudioProcessor implements Runnable {
 
     /**
      * FIXME: Description of {@code init}. Inicializa el grabador de audio.
+     *
      */
     public void init() {
         Log.d("printList", String.valueOf("Pasa 12 init"));
@@ -96,6 +97,7 @@ public class AudioProcessor implements Runnable {
     /**
      * FIXME: Description of {@code run}. Empieza a grabar audio (sobreescribe el funcionamiento ya
      * que implementa Runnable o thread).
+     *
      */
     @Override
     public void run() {
@@ -141,6 +143,7 @@ public class AudioProcessor implements Runnable {
 
     /**
      * FIXME: Description of {@code stop}. Detiene la grabación de audio.
+     *
      */
     public void stop() {
         Log.d("printList", String.valueOf("Pasa 14 stop"));

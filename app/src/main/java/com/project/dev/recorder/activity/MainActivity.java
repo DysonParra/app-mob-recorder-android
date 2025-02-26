@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean recording = false;
 
     /**
-     * Invocado cuando se crea el activity.
+     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
