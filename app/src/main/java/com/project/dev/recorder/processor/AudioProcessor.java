@@ -37,7 +37,7 @@ public class AudioProcessor implements Runnable {
     private static final String TAG = AudioProcessor.class.getCanonicalName();
 
     /**
-     * TODO: Description of {@code PitchDetectionListener}.
+     * TODO: Description of method {@code PitchDetectionListener}.
      *
      */
     public interface PitchDetectionListener {
@@ -55,7 +55,7 @@ public class AudioProcessor implements Runnable {
     private boolean mStop = false;
 
     /**
-     * TODO: Description of {@code setPitchDetectionListener}.
+     * TODO: Description of method {@code setPitchDetectionListener}.
      *
      * @param pitchDetectionListener
      */
@@ -65,7 +65,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code init}. Inicializa el grabador de audio.
+     * FIXME: Description of method {@code init}. Inicializa el grabador de audio.
      *
      */
     public void init() {
@@ -95,7 +95,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code run}. Empieza a grabar audio (sobreescribe el funcionamiento ya
+     * FIXME: Description of method {@code run}. Empieza a grabar audio (sobreescribe el funcionamiento ya
      * que implementa Runnable o thread).
      *
      */
@@ -142,7 +142,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code stop}. Detiene la grabación de audio.
+     * FIXME: Description of method {@code stop}. Detiene la grabación de audio.
      *
      */
     public void stop() {
@@ -153,7 +153,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code averageIntensity}. Obtiene el volumen promedio de las muestras
+     * FIXME: Description of method {@code averageIntensity}. Obtiene el volumen promedio de las muestras
      * leídas.
      *
      * @param data   Es la matriz con las muestras.
@@ -169,7 +169,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code zeroCrossingCount}. Obtiene la cantidad de saltos entre positivo
+     * FIXME: Description of method {@code zeroCrossingCount}. Obtiene la cantidad de saltos entre positivo
      * y negativo en las muestras leídas.
      *
      * @param data Es la matriz con las muestras.
@@ -194,7 +194,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Description of {@code getPitch}. Obtiene la frecuencia (en Hertz) de las muestras
+     * FIXME: Description of method {@code getPitch}. Obtiene la frecuencia (en Hertz) de las muestras
      * leídas.
      *
      * @param data       Es la matriz con las muestras.

@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean recording = false;
 
     /**
-     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
+     * FIXME: Description of method {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * TODO: Description of {@code onStart}.
+     * TODO: Description of method {@code onStart}.
      *
      */
     @Override
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * TODO: Description of {@code startAudioProcessing}.
+     * TODO: Description of method {@code startAudioProcessing}.
      *
      */
     private void startAudioProcessing() {
