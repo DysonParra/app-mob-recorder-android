@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MainActivity}
+ * @overview        {MainActivity}
  *
  * @version         2.0
  *

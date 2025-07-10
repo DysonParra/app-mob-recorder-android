@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AudioProcessor}
+ * @overview        {AudioProcessor}
  *
  * @version         2.0
  *
